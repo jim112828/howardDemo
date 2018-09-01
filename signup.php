@@ -1,7 +1,5 @@
-<!-- jimmy html learn brootstrap -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="utf-8"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +8,7 @@
 	<!-- javascripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<title>User Login</title>
+	<title>Signup</title>
 </head>
 <body>
 	<nav class="navbar navbar-default ">
@@ -37,36 +35,40 @@
   </div>
 </nav>
 	<div class="container">
-	
-	<div class="jumbotron">
-		<img style="max-width:1000px;"src="elogo_top.png"></img>
-    <div class="row">
-      <div class="col-sm-6">
-    <h1>哈佛學員專區</h1></div>
-    <div class="col-sm-6">
-    <form action="/action_page.php">
+		<form action="/login.php" method="post">
   <div class="form-group">
     <label for="email">學號:</label>
     <input type="email" class="form-control" id="email">
   </div>
   <div class="form-group">
+    <label for="pwd">姓名:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
     <label for="pwd">密碼:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">生日:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">電話:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="pwd">住址:</label>
     <input type="password" class="form-control" id="pwd">
   </div>
   <div class="checkbox">
     <label><input type="checkbox"> 記住我</label>
   </div>
   <button type="submit" class="btn btn-default">確定</button>
+
 </form>
 
-</div>
-</div> 
-    <p>Digital Learning Center<br>英文考試專家．留學遊學權威</p> 
-  </div>	
-	
-	
 
-</div>
-	
+	</div>
+
 </body>
 </html>
